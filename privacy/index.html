@@ -49,9 +49,9 @@
       </ul>
 
       <h2>Snap it and the coach</h2>
-      <p>When you snap a bill or letter, the photo is sent to our server and passed to our AI provider, Anthropic, to read and explain it. We return a summary to your phone and do not store the photo.</p>
+      <p>When you snap a bill or letter, the photo is sent to our server and passed through OpenRouter to our AI provider, Anthropic, to read and explain it. We return a summary to your phone and do not store the photo.</p>
       <p>When you message the coach, we send your recent messages and a short summary of your situation: country and region, currency, number of adults and children, whether anyone is pregnant, benefits, working status, housing tenure, pay frequency, your bill categories and amounts, and this week's summary. We do not send your name, address or children's exact birthdays.</p>
-      <p>Anthropic processes this data on our behalf and may keep it for a limited period under its own terms before deleting it. It does not use it to train its models. Photos and messages may include information about your health or finances, so only send what you're comfortable sharing.</p>
+      <p>OpenRouter and Anthropic process this data on our behalf and may keep it for a limited period under their own terms before deleting it. It does not use it to train its models. Photos and messages may include information about your health or finances, so only send what you're comfortable sharing.</p>
 
       <h2>Why we use your data</h2>
       <ul>
@@ -63,6 +63,7 @@
       <h2>Who we work with</h2>
       <ul>
         <li><strong>Supabase</strong>: hosting, database and server functions.</li>
+        <li><strong>OpenRouter</strong>: routes requests from our server to the AI model.</li>
         <li><strong>Anthropic</strong>: AI that reads letters and answers coach messages.</li>
         <li><strong>RevenueCat</strong>: manages subscriptions.</li>
         <li><strong>Google Play and the Apple App Store</strong>: payments and app distribution.</li>
@@ -74,7 +75,7 @@
         <li>Data on your phone: until you delete it or uninstall the app.</li>
         <li>Usage counts: 12 months.</li>
         <li>Subscription status: while you have Pro, and for a reasonable period after for our records.</li>
-        <li>Photos and coach messages: not stored by us. Anthropic deletes them after its retention period.</li>
+        <li>Photos and coach messages: not stored by us. OpenRouter and Anthropic delete them after their retention periods.</li>
       </ul>
 
       <h2 id="delete">Deleting your data</h2>
@@ -103,6 +104,7 @@
       <span>© 2026 Ignatius Sani</span>
       <nav aria-label="Footer">
         <a href="/">Home</a>
+        <a href="/terms">Terms of use</a>
         <a href="mailto:iggydevs@gmail.com">Contact</a>
       </nav>
     </div>
